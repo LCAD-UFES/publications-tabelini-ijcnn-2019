@@ -2,7 +2,7 @@
 
 [Lucas Tabelini Torres](https://github.com/lucastabelini), [Thiago M. Paixão](https://sites.google.com/site/professorpx), [Rodrigo F. Berriel](http://rodrigoberriel.com), [Alberto F. De Souza](https://inf.ufes.br/~alberto), [Claudine Badue](https://www.inf.ufes.br/~claudine/), [Nicu Sebe](http://disi.unitn.it/~sebe/) and [Thiago Oliveira-Santos](https://www.inf.ufes.br/~todsantos/home)
 
-Paper accepted at [IJCNN](https://www.ijcnn.org/) 2019 Conference. A preprint version can be accessed [here](https://arxiv.org/abs/1907.09679).
+Paper published in [IJCNN](https://www.ijcnn.org/) 2019 Conference. DOI: [10.1109/IJCNN.2019.8852086](https://doi.org/10.1109/IJCNN.2019.8852086).
 ![Overview](https://github.com/LCAD-UFES/publications-tabelini-ijcnn-2019/blob/master/images/overview.png)
 
 #### Abstract
@@ -46,9 +46,11 @@ The impact of removal of False False-Positives on the metrics and its cases can 
 ```
 
 @article{tabelini2019ijcnn,
-	Title		= {{Effortless Deep Training for Traffic Sign Detection Using Templates and Arbitrary Natural Images}},
-	Author		= {Lucas Tabelini Torres and Thiago M. Paixão and Rodrigo F. Berriel and Alberto F. De Souza and Claudine Badue and Nicu Sebe and Thiago Oliveira-Santos},
-	Journal 	= {arXiv preprint arXiv:1907.09679},
-	Year 		= {2019}
+    Author    = {Lucas Tabelini Torres and Thiago M. Paixão and Rodrigo F. Berriel and Alberto F. De Souza and Claudine Badue and Nicu Sebe and Thiago Oliveira-Santos},
+    Booktitle = {International Joint Conference on Neural Networks (IJCNN)},
+    Title     = {{Effortless Deep Training for Traffic Sign Detection Using Templates and Arbitrary Natural Images}},
+    Year      = {2019},
+    DOI       = {10.1109/IJCNN.2019.8852086}
 }
+
 ```
