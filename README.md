@@ -1,6 +1,6 @@
 # Effortless Deep Training for Traffic Sign Detection Using Templates and Arbitrary Natural Images
 
-[Lucas Tabelini Torres](https://github.com/lucastabelini), [Thiago M. Paixão](https://sites.google.com/site/professorpx), [Rodrigo F. Berriel](http://rodrigoberriel.com), [Alberto F. De Souza](https://inf.ufes.br/~alberto), [Claudine Badue](https://www.inf.ufes.br/~claudine/), [Nicu Sebe](http://disi.unitn.it/~sebe/) and [Thiago Oliveira-Santos](https://www.inf.ufes.br/~todsantos/home)
+[Lucas Tabelini Torres](https://github.com/lucastabelini), [Thiago M. Paixão](https://sites.google.com/view/thiagopx), [Rodrigo F. Berriel](http://rodrigoberriel.com), [Alberto F. De Souza](https://inf.ufes.br/~alberto), [Claudine Badue](https://www.inf.ufes.br/~claudine/), [Nicu Sebe](http://disi.unitn.it/~sebe/) and [Thiago Oliveira-Santos](https://www.inf.ufes.br/~todsantos/home)
 
 Paper published in [IJCNN](https://www.ijcnn.org/) 2019 Conference. DOI: [10.1109/IJCNN.2019.8852086](https://doi.org/10.1109/IJCNN.2019.8852086).
 ![Overview](https://github.com/LCAD-UFES/publications-tabelini-ijcnn-2019/blob/master/images/overview.png)
