@@ -149,7 +149,7 @@ def blend(template, template_mask, target_image, target_bbox, steps=3):
     return blended.astype(np.float32) / 255.0
 
 
-def get_random_position(probabilties_vector, positions_list, img_size=(2048, 2048), sample_size=1):
+def get_random_position(probabilities_vector, positions_list, img_size=(2048, 2048), sample_size=1):
     positions = np.random.choice(
         positions_list, size=sample_size, p=probabilities_vector)
     positions = [(position % img_size[1], math.ceil(
