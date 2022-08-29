@@ -274,7 +274,7 @@ def process_img(target, template, template_mask, probabilities_vector, positions
 
 def get_mask_from_image(alpha_image):
     alpha_channel = alpha_image[:, :, -1]
-    mask = np.zeros_like(alpha_image[:, :, :-1])
+    mask = np.zeros_like(alpha_image[:, :, :])
     mask[:, :, 0][alpha_channel > 0] = 1
     mask[:, :, 1][alpha_channel > 0] = 1
     mask[:, :, 2][alpha_channel > 0] = 1
@@ -370,7 +370,7 @@ def generate_sample(targets_path, img_name, templates, probabilities_vector, pos
             bboxes.append(bbox_data['bbox'])
 
         blur_value = image_data['blur_value']
-    blur_effect = iaa.Sequential([iaa.GaussianBlur(blur_value, deterministic=True)])
+    blur_effect = iaa.Sequential([iaa.GaussianBlur(blur_value)]).to_deterministic()
     target = blur_effect.augment_image(target)
 
     img_out_path = os.path.join(images_out_path, "{:05d}_{}.jpg".format(nb_imgs_generated,
